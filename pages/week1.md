@@ -10,7 +10,7 @@ title: week1
 #### What are the data? Besides the pangram, I also need to know the alphabet
 #### Conditions: every letter in the alphabet appears once
 ### Devise a plan
-#### first plan
+#### First plan
 ##### A more general problem could be --- count the number of times for the appearance of each letter in the give phase.
 ##### Then, the result can be used.
 ##### if all letters appear at least once, it's a pangram
