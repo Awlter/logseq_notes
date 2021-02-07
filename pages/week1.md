@@ -8,7 +8,7 @@ title: week1
 #### To restate the problem: Given a series of letters, check if every letter appears at least once. If it's true, it's called a pangram.
 #### What is the unknown, or what I am asked to do is --- whether a phrase is a pangram
 #### What are the data? Besides the pangram, I also need to know the alphabet
-#### Conditions: every letter in the
+#### Conditions: every letter in the alphabet appears once
 ### Devise a plan
 #### first plan
 #####
