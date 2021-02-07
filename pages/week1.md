@@ -11,4 +11,4 @@ title: week1
 #### Conditions: every letter in the alphabet appears once
 ### Devise a plan
 #### first plan
-##### Assume I have not seen it before.
+##### Assume I have not seen it before. A related problem could be
