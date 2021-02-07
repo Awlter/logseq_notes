@@ -12,5 +12,6 @@ title: week1
 ### Devise a plan
 #### first plan
 ##### Assume I have not seen it before. A more general problem could be --- count the number of times for the appearance of each letter in the give phase.
-##### Then, if all letters appear at least once, it's a pangram
+##### Then, the result can be used.
+##### If all letters appear at least once, it's a pangram
 #### Second plan
