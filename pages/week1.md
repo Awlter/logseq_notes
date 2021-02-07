@@ -15,4 +15,6 @@ title: week1
 ##### Then, the result can be used.
 ##### if all letters appear at least once, it's a pangram
 #### Second plan
-##### A related problem could be ---
+##### A related problem could be --- the uniq letters of the phrase
+##### if the number of uniq letters happen to be 26, it's a pangram
+#### Third plan
