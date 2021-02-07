@@ -18,3 +18,4 @@ title: week1
 ##### A related problem could be --- the uniq letters of the phrase
 ##### if the number of uniq letters happen to be 26, it's a pangram
 #### Third plan
+#####
