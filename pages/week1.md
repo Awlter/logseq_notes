@@ -12,4 +12,5 @@ title: week1
 ### Devise a plan
 #### first plan
 ##### Assume I have not seen it before. A related problem could be --- count the number of times for the appearance of each letter in the give phase.
-##### if
+##### if all letters appear at least once, it's a pangram
+####
