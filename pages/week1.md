@@ -11,8 +11,8 @@ title: week1
 #### Conditions: every letter in the alphabet appears once
 ### Devise a plan
 #### first plan
-##### Assume I have not seen it before. A more general problem could be --- count the number of times for the appearance of each letter in the give phase.
+##### A more general problem could be --- count the number of times for the appearance of each letter in the give phase.
 ##### Then, the result can be used.
 ##### if all letters appear at least once, it's a pangram
 #### Second plan
-#####
+##### A related problem could be ---
