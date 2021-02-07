@@ -2,6 +2,5 @@
 title: week1
 ---
 
-## preclass
-
+## pre-class
 ###
