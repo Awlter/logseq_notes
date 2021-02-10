@@ -42,5 +42,5 @@ title: week1
 ##### the most intuitive approach would be iterating the guests info array based on a query integer
 ###
 ```
-hehe
+heheasdfasdf 
 ```
