@@ -63,7 +63,7 @@ es)
 #### Can you derive the result differently?
 ##### yes, but why? because it not time efficient, it's O(n * m)
 ##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year with a hash table
-##### Or to slightly reduce the time complexity, by sorting the guests info array based firstly on the check-in date and then the check-out date, so that when iterate the query dates, we can skip some ca
+##### Or to slightly reduce the time complexity, by sorting the guests info array based firstly on the check-in date and then the check-out date, so that when iterate the query dates, we can skip some info arrays
 #### Can you check the result and arguments
 ##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
 #### Can you use the procedure or result
