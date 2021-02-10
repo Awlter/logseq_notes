@@ -24,8 +24,8 @@ title: week1
 ### understanding the problem
 #### restate the problem
 - Given an array of arrays representing guests info, each array represents the check-in and check-out day in which integers represent Xth day of the year (let's assume it true), e.g. [4, 32] represents a guest checks in at 4th and 32nd.
-#### Another array of integers is also given as queries, each integer presents a particular day
-#### Based on the guests' info and queries, it is expected to return an array of integers that each integer represents how many guests are staying on that particular day
+- Another array of integers is also given as queries, each integer presents a particular day
+- Based on the guests' info and queries, it is expected to return an array of integers that each integer represents how many guests are staying on that particular day
 ### Eliminate uncertainties
 #### since this is more of a practice for Polya's process, let's assume (since right now I cannot confirm with Elliot) guests info arrays are always an array with two integers.
 #### Let's also assume are input are well-formed --- no empty array, no empty or invalid elements in the array ( 's', nil, '', '1', or integer larger than 365 and less than 1)
