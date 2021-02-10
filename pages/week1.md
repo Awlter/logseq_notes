@@ -167,5 +167,3 @@ def hotel_guests(guest_infos, query_dates)
 	query_dates.map do |date|
 		guest_infos.inject(0) { |sum, guest_info| (guest_info
 ##### the most intuitive approach would be iterating the guests info array based on a query integer
-### Carry out the plan
-###
