@@ -20,7 +20,7 @@ title: week1
 #### Third plan
 ##### Based on the alphabet, check each letter if it's in the phrase.
 ##### If there is one letter that is not in the phrase, it's not a pangram
-## Post-class
+## Post-class work
 ### understanding the problem
 #### restate the problem
 - Given an array of arrays representing guests info, each array represents the check-in and check-out day in which integers represent Xth day of the year (let's assume it true), e.g. [4, 32] represents a guest checks in at 4th and 32nd.
