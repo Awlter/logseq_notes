@@ -36,5 +36,5 @@ title: week1
 #### Some helpful heuristic questions (let's pretend this problem is quite difficult)
 ##### Could you imagine a more accessible problem
 ###### yes, whether the specific day is in between the range of each guest info.
-##### Could you imagine a similar problem
-###### yes, given a
+##### Could you imagine a similar or general problem
+###### yes, given an array of integers, check
