@@ -27,4 +27,4 @@ title: week1
 #### Based on the guests' info and queries, it is expected to return an array of integers that each integer represents how many guests are staying on that particular day
 ### Eliminate uncertainties
 #### since this is more of a practice for Polya's process, let's assume (since right now I cannot confirm with Elliot) guests info arrays are always an array with two integers.
-#### Let's also assume all integer
+####
