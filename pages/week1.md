@@ -67,4 +67,4 @@ es)
 #### Can you check the result and arguments
 ##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
 #### Can you use the procedure or result
-##### yes, I guess so, the procedure and result is pretty straight-forward
+##### yes, I guess so, the procedure and result is pretty straight-forward. Not sure how to well elastrate
