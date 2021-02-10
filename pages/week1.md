@@ -34,5 +34,5 @@ title: week1
 #### Let's also assume the inputs are well-formed --- no empty array, no empty or invalid elements in the array ( 's', nil, '', '1', or integer larger than 365 and less than 1), no repeated data, for guests info array, the first integer is always smaller than the second.
 ### Devise a plan
 #### Some helpful heuristic questions
-##### Could yo
+##### Have you seen the same problem with different form?
 ######
