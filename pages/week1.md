@@ -62,6 +62,6 @@ es)
 ##### should consider more on the performance side, time and memory.
 #### Can you derive the result differently?
 ##### yes, but why? because it not time efficient, it's n * n
-##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year
+##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year with a hash table
 ##### Cannot think of a less time efficient strategy, would love to know there is one
 ####
