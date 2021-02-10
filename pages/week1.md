@@ -39,4 +39,4 @@ title: week1
 ##### Could you imagine a similar or general problem
 ###### yes, given an array A of strings and an array (B) of arrays, in which each element is a char. Output an array of integers. In the array, each in integer represents how many strings in the array B include a char in array B.
 #### The plan
-##### the most intuitive approach would be iterating the guests info array
+##### the most intuitive approach would be iterating the guests info array based on a query integer
