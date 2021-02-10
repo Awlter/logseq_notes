@@ -21,4 +21,5 @@ title: week1
 ##### Based on the alphabet, check each letter if it's in the phrase.
 ##### If there is one letter that is not in the phrase, it's not a pangram
 ## Post-class
-###
+### understanding the problem
+####
