@@ -28,4 +28,5 @@ title: week1
 ### Eliminate uncertainties
 #### since this is more of a practice for Polya's process, let's assume (since right now I cannot confirm with Elliot) guests info arrays are always an array with two integers.
 #### Let's also assume are input are well-formed --- no empty array, no empty or invalid elements in the array ( 's', nil, '', '1', or integer larger than 365 and less than 1)
-###
+### Devise a plan
+####
