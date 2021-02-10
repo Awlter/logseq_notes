@@ -2,7 +2,6 @@
 title: week1
 ---
 
-##
 ### understanding the problem
 #### Tho this is a pretty easy question to understand, at first glance I missed the phrase, "at least".
 #### To restate the problem: Given a series of letters, check if every l
@@ -19,4 +18,3 @@ title: week1
 #### Third plan
 ##### Based on the alphabet, check each letter if it's in the phrase.
 ##### If there is one letter that is not in the phrase, it's not a pangram
-##
