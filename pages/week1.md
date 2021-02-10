@@ -2,7 +2,6 @@
 title: week1
 ---
 
-### understanding the problem
 #### Tho this is a pretty easy question to understand, at first glance I missed the phrase, "at least".
 #### To restate the problem: Given a series of letters, check if every l
 #### What are the data? Besides the pangram, I also need to know the alphabet
