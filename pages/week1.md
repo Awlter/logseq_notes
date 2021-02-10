@@ -63,4 +63,4 @@ es)
 #### Can you derive the result differently?
 ##### yes, but why? because it not time efficient, it's n * n
 ##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year
-##### Cannot think of a less
+##### Cannot think of a less time effient
