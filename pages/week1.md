@@ -31,6 +31,6 @@ title: week1
 #### the condition is that whether a guest stays at the hotel on that day
 ### Eliminate uncertainties
 #### since this is more of a practice for Polya's process, let's assume (since right now I cannot confirm with Elliot) guests info arrays are always an array with two integers.
-#### Let's also assume the inputs are well-formed --- no empty array, no empty or invalid elements in the array ( 's', nil, '', '1', or integer larger than 365 and less than 1), no repeated data, for guests info array, first integer is always smaller than the second
+#### Let's also assume the inputs are well-formed --- no empty array, no empty or invalid elements in the array ( 's', nil, '', '1', or integer larger than 365 and less than 1), no repeated data, for guests info array, the first integer is always smaller than the second.
 ### Devise a plan
 ####
