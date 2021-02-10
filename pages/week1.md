@@ -41,7 +41,7 @@ title: week1
 #### The plan
 ##### the most intuitive approach would be iterating the guests info array based on a query integer
 ### Carry out the plan
-###
+####
 ```
 guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
 query_dates = [1, 5, 20]
