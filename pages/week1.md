@@ -55,5 +55,6 @@ end
 hotel_guests(guest_infos, query_dates)
 es)
 ```
+#### should have written tests and carry out the plan step by step but I guess it is not the main focus here?
 ### Looking back
 ####
