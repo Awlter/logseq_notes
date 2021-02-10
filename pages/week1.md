@@ -37,4 +37,4 @@ title: week1
 ##### Could you imagine a more accessible problem
 ###### yes, whether the specific day is in between the range of each guest info.
 ##### Could you imagine a similar or general problem
-###### yes, given an array A of integers and an array (B) of arrays that contain several integers. Outp how many arrays in the array B include each integer
+###### yes, given an array A of integers and an array (B) of arrays that contain several integers. Output how many arrays in the array B include each integer
