@@ -66,4 +66,5 @@ es)
 ##### Cannot think of a less time-efficient strategy,
 #### Can you check the result and arguments
 ##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
-#### Can you use the procedure
+#### Can you use the procedure or result
+##### yes, I guess so
