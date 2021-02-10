@@ -40,16 +40,4 @@ title: week1
 ###### yes, given an array A of strings and an array (B) of arrays, in which each element is a char. Output an array of integers. In the array, each in integer represents how many strings in the array B include a char in array B.
 #### The plan
 ##### the most intuitive approach would be iterating the guests info array based on a query integer
-#### Carry out the plan
-```
-guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
-query_dates = [1, 5, 20]
-
-def hotel_guests(guest_infos, query_dates)
-	query_dates.map do |date|
-		guest_infos.inject(0) { |sum, guest_info| (guest_info.first..guest_info.last).include?(date) ? sum + 1 : sum}
-	end
-end
-
-hotel_guests(guest_infos, query_dates)
-```
+#####
