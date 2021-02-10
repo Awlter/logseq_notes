@@ -25,3 +25,5 @@ title: week1
 #### Given an array of arrays representing guests info, each array represents the check-in and check-out day in which integers represent Xth day of the year (let's assume it true), e.g. [4, 32] represents a guest checks in at 4th and 32nd.
 #### Another array of integers is also given as queries, each integer presents a particular day
 #### Based on the guests' info and queries, it is expected to return an array of integers that each integer represents how many guests are staying on that particular day
+### Eliminate uncertainties
+#### since this is more of a practice for Polya's process, let's assume guests info al
