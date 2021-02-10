@@ -38,4 +38,5 @@ title: week1
 ###### yes, whether the specific day is in between the range of each guest info.
 ##### Could you imagine a similar or general problem
 ###### yes, given an array A of strings and an array (B) of arrays, in which each element is a char. Output an array of integers. In the array, each in integer represents how many strings in the array B include a char in array B.
-#### The most in
+#### The plan
+##### the most intuitive approach would be iterate the guests info array
