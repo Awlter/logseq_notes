@@ -61,9 +61,9 @@ es)
 ##### should use less syntactic sugar
 ##### should consider more on the performance side, time and memory.
 #### Can you derive the result differently?
-##### yes, but why? because it not time efficient, it's n * n
+##### yes, but why? because it not time efficient, it's O(n * m)
 ##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year with a hash table
-##### Or to slightly reduce the time complexity
+##### Or to slightly reduce the time complexity, but sorting the guests info array based firstly on the
 #### Can you check the result and arguments
 ##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
 #### Can you use the procedure or result
