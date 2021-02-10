@@ -61,4 +61,4 @@ es)
 ##### should use less syntactic sugar
 ##### should consider more on the performance side, time and memory.
 #### Can you derive the result differently?
-##### yes, but why? because
+##### yes, but why? because it not time efficient, it's n * n
