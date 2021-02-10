@@ -149,7 +149,7 @@ query_dates = [1, 5, 20]
 
 def hotel_guests(guest_infos, query_dates)
 	query_dates.map do |date|
-		guest_infos.inject(0) { |sum, guest_info| (guest_info.first..guest_info.last).include?(date) ? sum + 1 : sum}
+		guest_inte) ? sum + 1 : sum}
 	end
 end
 
