@@ -57,4 +57,5 @@ es)
 ```
 #### should have written tests and carry out the plan step by step but I guess it is not the main focus here?
 ### Looking back
-####
+#### programming wise
+##### should use less syntactic sugar
