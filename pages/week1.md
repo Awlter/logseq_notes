@@ -65,5 +65,5 @@ es)
 ##### I think I would do something like trading space for time by pre calculating how many guests for each day of a year with a hash table
 ##### Cannot think of a less time-efficient strategy,
 #### Can you check the result and arguments
-##### these have already been done during previous procedures with assumption and tests (which I have not written [awkward face])
+##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
 #### Can you use the procedure
