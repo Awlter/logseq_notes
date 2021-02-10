@@ -57,7 +57,7 @@ hotel_guests(guest_infos, query_dates)
 #### should have written tests and carry out the plan step by step but I guess it is not the main focus here?
 ### Looking back
 #### programming wise
-##### should use less syntactic sugar
+##### should use less syntactic sugar to make it more general
 ##### should consider more on the performance side, time and memory.
 #### Can you derive the result differently?
 ##### yes, but why? because it not time efficient, it's O(n * m)
