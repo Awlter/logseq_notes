@@ -35,4 +35,4 @@ title: week1
 ### Devise a plan
 #### Some helpful heuristic questions
 ##### Have you seen the same problem with different form?
-######
+###### yes, instead of guests info array
