@@ -48,7 +48,7 @@ query_dates = [1, 5, 20]
 
 def hotel_guests(guest_infos, query_dates)
   query_dates.map do |date|
-	guest_infos.sum { |(in_date, out_date)| (in_date..out_date).include?(date) ? 1 : 0 }
+    guest_infos.sum { |(in_date, out_date)| (in_date..out_date).include?(date) ? 1 : 0 }
   end
 end
 
