@@ -35,4 +35,4 @@ title: week1
 ### Devise a plan
 #### Some helpful heuristic questions
 ##### Have you seen the same problem with different form?
-###### yes, instead of guests info array, which can be treated at a range,
+###### yes, instead of guests info array, in which each info array can be treated at a range,
