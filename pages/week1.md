@@ -35,4 +35,4 @@ title: week1
 ### Devise a plan
 #### Some helpful heuristic questions (let's pretend this problem is quite difficult)
 ##### Could you imagine a more accessible problem
-###### yes, when the specific day is inbtween the range of g
+###### yes, when the specific day is in btween the range of each guest info
