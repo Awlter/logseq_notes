@@ -91,18 +91,18 @@ p sales_count(sales, queries) == expected_result
 ```
 ### hotel guests
 ####
-```
+```ruby
 guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
 query_dates = [1, 5, 20]
 
 def hotel_guests(guest_infos, query_dates)
   guests_count = Array.new(31, 0)
 
-	guest_infos.each do |(in_day, out_day)|
-		(in_day..out_day).each { |index| guests_count[index] += 1 }
-	end
+  guest_infos.each do |(in_day, out_day)|
+    (in_day..out_day).each { |index| guests_count[index] += 1 }
+  end
 
-	query_dates.map { |day| guests_count[day] }
+  query_dates.map { |day| guests_count[day] }
 end
 
 p hotel_guests(guest_infos, query_dates
