@@ -70,7 +70,7 @@ hotel_guests(guest_infos, query_dates)
 ## Looking back version 2
 ### sales count (optimized)
 #### sales count O(n) space O(Max(n, m)) time, n for sales, m for queries
-#####
+####
 ```ruby
 sales = [5, 10, 23, 1, 25, 22, 17]
 queries = [[1, 3], [0, 2], [2, 5], [3, 6]]
@@ -78,13 +78,13 @@ queries = [[1, 3], [0, 2], [2, 5], [3, 6]]
 expected_result = [34, 38, 71, 65]
 
 def sales_count(sales, queries)
-total = 0
-	accumulated_sales = sales.map { |sale| total += sale }
-	accumulated_sales.prepend(0)
+  total = 0
+  accumulated_sales = sales.map { |sale| total += sale }
+  accumulated_sales.prepend(0)
 
-	queries.map do |(start_day, end_day)|
-		accumulated_sales[end_day + 1] - accumulated_sales[start_day]
-	end
+  queries.map do |(start_day, end_day)|
+    accumulated_sales[end_day + 1] - accumulated_sales[start_day]
+  end
 end
 
 p sales_count(sales, queries) == expected_result
