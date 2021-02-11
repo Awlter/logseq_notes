@@ -71,7 +71,7 @@ hotel_guests(guest_infos, query_dates)
 ### sales count (optimized)
 #### sales count O(n) space O(Max(n, m)) time, n for sales, m for queries
 ####
-```
+```ruby
 sales = [5, 10, 23, 1, 25, 22, 17]
 queries = [[1, 3], [0, 2], [2, 5], [3, 6]]
 
