@@ -70,7 +70,7 @@ hotel_guests(guest_infos, query_dates)
 ## Looking back version 2
 ### sales count (optimized)
 #### sales count O(n) space O(Max(n, m)) time, n for sales, m for queries
-sales = [5, 10, 23, 1, 25, 22, 17]
+#### sales = [5, 10, 23, 1, 25, 22, 17]
 queries = [[1, 3], [0, 2], [2, 5], [3, 6]]
 
 expected_result = [34, 38, 71, 65]
@@ -86,10 +86,8 @@ def sales_count(sales, queries)
 end
 
 p sales_count(sales, queries) == expected_result
-
 ### hotel guests
-####
-```
+#### ```
 guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
 query_dates = [1, 5, 20]
 
@@ -104,7 +102,6 @@ def hotel_guests(guest_infos, query_dates)
 end
 
 p hotel_guests(guest_infos, query_dates
-```
 #### the above strategy was in my looking back procedure, but it looks the time complexity is still O(n**2)
 
 #### now trying a new strategy
