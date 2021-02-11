@@ -110,20 +110,20 @@ p hotel_guests(guest_infos, query_dates
 #### the above strategy was in my looking back procedure, but it looks the time complexity is still O(n**2)
 
 #### now trying a new strategy
-```
+```ruby
 def hotel_guests(guest_infos, query_dates)
   guests_count = Array.new(31, 0)
 
-	guest_infos.each do |(in_day, out_day)|
-		guests_count[in_day] += 1
-		guests_count[out_day] -= 1
-	end
+  guest_infos.each do |(in_day, out_day)|
+  guests_count[in_day] += 1
+	guests_count[out_day] -= 1
+  end
 
-	total = 0
+  total = 0
 
-	guests_count = guests_count.map { |marker| total += marker }
+  guests_count = guests_count.map { |marker| total += marker }
 
-	query_dates.map { |day| guests_count[day] }
+  query_dates.map { |day| guests_count[day] }
 end
 
 p hotel_guests(guest_infos, query_dates)
