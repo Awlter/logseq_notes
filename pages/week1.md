@@ -126,7 +126,9 @@ end
 p hotel_guests(guest_infos, query_dates)
 
 #### now we can see that there are similarities between the two problems
-- ```ruby
+-
+####
+```ruby
   guests_count = Array.new(31, 0)
 
   guest_infos.each do |(in_day, out_day)|
@@ -142,6 +144,5 @@ p hotel_guests(guest_infos, query_dates)
   ```
 - what this part does is actually calculating the how many rooms are providing service on a specific day, which is the same as calculating the accumulated sales
 - now the difference between the two is that the Sales problem asked for the result with the ranges of days, in between which how many t-shirts have been sold, but the Hotel problem just ask for the sales on a specific day
-
 ### Can you use the result for some other problem?
 #### yes, for the hotel problem, the queries could be an array of arrays, which might be asking how many rooms have been occupied during that period of time
