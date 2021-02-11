@@ -135,7 +135,7 @@ guests_count = Array.new(31, 0)
     guests_count[out_day] -= 1
   end
 ```
-- what this part does is actually generating the sales count (how many people checked in or out on a specific day)
+##### - what this part does is actually generating the sales count (how many people checked in or out on a specific day)
 - ```ruby
   total = 0
 
