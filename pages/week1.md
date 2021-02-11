@@ -135,13 +135,13 @@ guests_count = Array.new(31, 0)
     guests_count[out_day] -= 1
   end
 ```
-##### - what this part does is actually generating the sales count (how many people checked in or out on a specific day)
-- ```ruby
-  total = 0
-
-	guests_count = guests_count.map { |marker| total += marker }
-  ```
-- what this part does is actually calculating the how many rooms are providing service on a specific day, which is the same as calculating the accumulated sales
-- now the difference between the two is that the Sales problem asked for the result with the ranges of days, in between which how many t-shirts have been sold, but the Hotel problem just ask for the sales on a specific day
+##### what this part does is actually generating the sales count (how many people checked in or out on a specific day)
+#####
+```ruby
+total = 0
+guests_count = guests_count.map { |marker| total += marker }
+```
+##### what this part does is actually calculating the how many rooms are providing service on a specific day, which is the same as calculating the accumulated sales
+##### now the difference between the two is that the Sales problem asked for the result with the ranges of days, in between which how many t-shirts have been sold, but the Hotel problem just ask for the sales on a specific day
 ### Can you use the result for some other problem?
 #### yes, for the hotel problem, the queries could be an array of arrays, which might be asking how many rooms have been occupied during that period of time
