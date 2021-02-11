@@ -90,7 +90,8 @@ end
 p sales_count(sales, queries) == expected_result
 ```
 ### hotel guests
-#### ```
+####
+```
 guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
 query_dates = [1, 5, 20]
 
@@ -105,6 +106,7 @@ def hotel_guests(guest_infos, query_dates)
 end
 
 p hotel_guests(guest_infos, query_dates
+```
 #### the above strategy was in my looking back procedure, but it looks the time complexity is still O(n**2)
 
 #### now trying a new strategy
