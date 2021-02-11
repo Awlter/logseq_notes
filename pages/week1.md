@@ -107,7 +107,7 @@ p hotel_guests(guest_infos, query_dates)
 #### the above strategy was in my looking back procedure, but it looks the time complexity is still O(n**2)
 
 #### now trying a new strategy
-
+```
 def hotel_guests(guest_infos, query_dates)
   guests_count = Array.new(31, 0)
 
@@ -124,7 +124,7 @@ def hotel_guests(guest_infos, query_dates)
 end
 
 p hotel_guests(guest_infos, query_dates)
-
+####
 #### now we can see that there are similarities between the two problems
 #####
 ```ruby
