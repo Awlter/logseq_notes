@@ -133,10 +133,10 @@ p hotel_guests(guest_infos, query_dates)
 ```ruby
 guests_count = Array.new(31, 0)
 
-  guest_infos.each do |(in_day, out_day)|
-    guests_count[in_day] += 1
-    guests_count[out_day] -= 1
-  end
+guest_infos.each do |(in_day, out_day)|
+  guests_count[in_day] += 1
+  guests_count[out_day] -= 1
+end
 ```
 ##### what this part does is actually generating the sales count (how many people checked in or out on a specific day)
 #####
