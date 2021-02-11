@@ -67,3 +67,81 @@ hotel_guests(guest_infos, query_dates)
 ##### these have already been done during previous steps with assumption and tests (which I have not written [awkward face])
 #### Can you use the procedure or result
 ##### yes, I guess so, the procedure and result is pretty straight-forward. Not sure how to well illustrate this point.
+## Looking back version 2
+### sales count (optimized)
+#### sales count O(n) space O(Max(n, m)) time, n for sales, m for queries
+sales = [5, 10, 23, 1, 25, 22, 17]
+queries = [[1, 3], [0, 2], [2, 5], [3, 6]]
+
+expected_result = [34, 38, 71, 65]
+
+def sales_count(sales, queries)
+	total = 0
+	accumulated_sales = sales.map { |sale| total += sale }
+	accumulated_sales.prepend(0)
+
+	queries.map do |(start_day, end_day)|
+		accumulated_sales[end_day + 1] - accumulated_sales[start_day]
+	end
+end
+
+p sales_count(sales, queries) == expected_result
+
+### hotel guests
+
+guest_infos = [[4, 20], [1, 3], [2, 27], [3, 19]]
+query_dates = [1, 5, 20]
+
+def hotel_guests(guest_infos, query_dates)
+  guests_count = Array.new(31, 0)
+
+	guest_infos.each do |(in_day, out_day)|
+		(in_day..out_day).each { |index| guests_count[index] += 1 }
+	end
+
+	query_dates.map { |day| guests_count[day] }
+end
+
+p hotel_guests(guest_infos, query_dates)
+
+#### the above strategy was in my looking back procedure, but it looks the time complexity is still O(n**2)
+
+#### now trying a new strategy
+
+def hotel_guests(guest_infos, query_dates)
+  guests_count = Array.new(31, 0)
+
+	guest_infos.each do |(in_day, out_day)|
+		guests_count[in_day] += 1
+		guests_count[out_day] -= 1
+	end
+
+	total = 0
+
+	guests_count = guests_count.map { |marker| total += marker }
+
+	query_dates.map { |day| guests_count[day] }
+end
+
+p hotel_guests(guest_infos, query_dates)
+
+#### now we can see that there are similarities between the two problems
+- ```ruby
+  guests_count = Array.new(31, 0)
+
+  guest_infos.each do |(in_day, out_day)|
+    guests_count[in_day] += 1
+    guests_count[out_day] -= 1
+  end
+  ```
+- what this part does is actually generating the sales count (how many people checked in or out on a specific day)
+- ```ruby
+  total = 0
+
+	guests_count = guests_count.map { |marker| total += marker }
+  ```
+- what this part does is actually calculating the how many rooms are providing service on a specific day, which is the same as calculating the accumulated sales
+- now the difference between the two is that the Sales problem asked for the result with the ranges of days, in between which how many t-shirts have been sold, but the Hotel problem just ask for the sales on a specific day
+
+### Can you use the result for some other problem?
+#### yes, for the hotel problem, the queries could be an array of arrays, which might be asking how many rooms have been occupied during that period of time
