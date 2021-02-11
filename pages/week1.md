@@ -125,7 +125,6 @@ end
 
 p hotel_guests(guest_infos, query_dates)
 ```
-####
 #### now we can see that there are similarities between the two problems
 #####
 ```ruby
