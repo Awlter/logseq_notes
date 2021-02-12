@@ -115,7 +115,7 @@ def hotel_guests(guest_infos, query_dates)
   guests_count = Array.new(31, 0)
 
   guest_infos.each do |(in_day, out_day)|
-  guests_count[in_day] += 1
+    guests_count[in_day] += 1
 	guests_count[out_day] -= 1
   end
 
