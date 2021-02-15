@@ -8,7 +8,7 @@ title: week3
   - pus and pop: for array queue, O(1) or O(n) depending on which end of the array as the head; for doubly linked list queue, O(1)
   - A doubly linked list queue may occupies much more space
 ##
-```
+```ruby
 class Stack
   def initialize
     @items = []
@@ -48,5 +48,38 @@ def reverse_list(list)
 end
 
 p reverse_list(['s', 'u', 'v'])
+
+class Queue
+  def initialize
+    @stack = Stack.new
+  end
+
+  def is_empty
+    @stack.is_empty?
+  end
+
+  def enqueue(item)
+    @stack.push(item)
+  end
+
+  def dequeue
+    temp = []
+
+    while !@stack.is_empty?
+      temp.unshift @stack.pop
+    end
+
+    temp[1..-1].each do |item|
+      @stack.push(item)
+    end
+
+    temp.first
+  end
+
+  def size
+    @stack.size
+  end
+end
+
 ```
 ##
