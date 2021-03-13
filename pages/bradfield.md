@@ -3,3 +3,4 @@ title: bradfield
 ---
 
 ## [[datastructure]]
+## [[architechture]]
